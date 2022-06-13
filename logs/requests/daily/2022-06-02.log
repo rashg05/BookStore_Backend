@@ -1,0 +1,108 @@
+info: ::1 - - [01/Jun/2022:19:41:40 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:41:40 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5640 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:41:40 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 143980 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:41:40 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5640 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:41:40 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 339540 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:41:40 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1096221 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:41:40 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 339540 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:41:40 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:41:40 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1096221 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:42:41 +0000] "POST /api/v1/users/register HTTP/1.1" 201 329 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:53:34 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:53:34 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:53:34 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:53:34 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6318 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:53:34 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:53:35 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:53:48 +0000] "GET /api/v1/books/all HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Jun/2022:19:54:16 +0000] "GET /api/v1/books/all HTTP/1.1" 200 9282 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [02/Jun/2022:02:23:28 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:23:35 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:23:35 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:23:35 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:23:35 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:23:35 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6318 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:23:35 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:23:36 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:27:26 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:27:26 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:27:26 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:27:26 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6229 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:27:26 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:02:27:26 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:10:38:04 +0000] "POST /api/v1/cart//add_cart_item/6214803b05253301a4fda584 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:10:41:39 +0000] "POST /api/v1/cart//add_cart_item/6214803b05253301a4fda584 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:10:58:24 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:10:58:24 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:10:58:24 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:10:58:24 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6252 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:10:58:24 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:10:58:24 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6252 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:10:58:24 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:10:58:24 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:10:58:24 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Jun/2022:12:07:16 +0000] "POST /api/v1/cart//add_cart_item/6214803b05253301a4fda584 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:07:52 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:08:01 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:09:40 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:11:11 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:12:58 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:14:17 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:15:50 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:17:37 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:25:50 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:12:53:09 +0000] "POST /api/v1/cart//add_cart_item/6215178d05253301a4fda5c4 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+

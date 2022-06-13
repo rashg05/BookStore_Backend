@@ -1,0 +1,2 @@
+info: ::1 - - [06/Jun/2022:02:40:16 +0000] "GET /api/v1/cart/get_cart_item HTTP/1.1" 200 631 "-" "PostmanRuntime/7.29.0"
+

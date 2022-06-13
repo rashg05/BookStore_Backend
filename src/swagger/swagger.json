@@ -1,0 +1,286 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "V1",
+        "title": " My BookStore App Swagger",
+        "description": "This is a boostore_app swagger to access rest API server"
+    },
+    "host": "localhost:3003",
+    "basePath": "/api/v1/",
+    "tags": [
+        {
+            "name": "Express-CLI",
+            "description": "Here is my BookStore App Replica"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users/register": {
+            "post": {
+                "tags": [
+                    "User Api's"
+                ],
+                "description": "Signing UP User...",
+                "parameters": [
+                    {
+                        "name": "SignUP",
+                        "in": "body",
+                        "description": "Details of User",
+                        "schema": {
+                            "$ref": "#/definitions/SignUP"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": [
+                    "User Api's"
+                ],
+                "description": "login user...",
+                "parameters": [
+                    {
+                        "name": "login",
+                        "in": "body",
+                        "description": "User logged in with registered Email ID and Password",
+                        "schema": {
+                            "$ref": "#/definitions/login"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/forget": {
+            "post": {
+                "tags": [
+                    "User Api's"
+                ],
+                "description": "forget Password...",
+                "parameters": [
+                    {
+                        "name": "Forget Password",
+                        "in": "body",
+                        "description": "Enter the email Id that you have forgotten the password of..",
+                        "schema": {
+                            "$ref": "#/definitions/forget"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/reset": {
+            "put": {
+                "tags": [
+                    "User Api's"
+                ],
+                "description": "Reset Password",
+                "parameters": [
+                    {
+                        "name": "Reset Password",
+                        "in": "body",
+                        "description": "Enter New password for your Mail ID",
+                        "schema": {
+                            "$ref": "#/definitions/reset"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/books/all": {
+            "get": {
+                "tags": [
+                    "Books Api's"
+                ],
+                "description": "Get All Books",
+                "parameters": [
+                    {
+                        "name": "get all",
+                        "description": "Get all your Books"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/cart/add_cart_item/{bookId}": {
+            "post": {
+                "tags": [
+                    "Cart Api's"
+                ],
+                "description": "Add item to cart",
+                "parameters": [
+                    {
+                        "name": "Add_To_Cart",
+                        "description": "add books to cart"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/cart/get_cart_item": {
+            "post": {
+                "tags": [
+                    "Cart Api's"
+                ],
+                "description": "Get items from cart",
+                "parameters": [
+                    {
+                        "name": "Get_Cart",
+                        "description": "get books from cart"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        }
+    },
+    "securityDefinitions": {
+        "JWT": {
+            "type": "apiKey",
+            "name": "token",
+            "in": "header"
+        }
+    },
+    "definitions": {
+        "SignUP": {
+            "type": "object",
+            "properties": {
+                "fullName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "phone": {
+                    "type": "string"
+                }
+            }
+        },
+        "login": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "forget": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                }
+            }
+        },
+        "reset": {
+            "type": "object",
+            "properties": {
+                "password": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-05-31T18:45:19.529Z"}
+info: Connected to the database. {"timestamp":"2022-05-31T18:45:19.563Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T02:54:09.131Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T02:54:09.167Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T02:54:35.747Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T02:54:35.780Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T02:59:54.228Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T02:59:54.261Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at userRegistrationValidator (F:\Study Material\ExpressNodejs\bookstore\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:328:13)
+    at F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (F:\Study Material\ExpressNodejs\bookstore\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-01T03:02:05.805Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T03:08:08.330Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T03:08:08.358Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:42:03.706Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:42:03.749Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:42:16.624Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:42:16.648Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:42:59.929Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:42:59.961Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:43:40.686Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:43:40.712Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:43:51.066Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:43:51.092Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:43:59.193Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:43:59.219Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:44:04.937Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:44:04.962Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:44:10.766Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:44:10.792Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:44:44.548Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:44:44.578Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-01T08:44:59.434Z"}
+info: Connected to the database. {"timestamp":"2022-06-01T08:44:59.499Z"}

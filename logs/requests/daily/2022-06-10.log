@@ -1,0 +1,6 @@
+info: ::1 - - [10/Jun/2022:02:45:49 +0000] "GET /api/v1/wishlist/get_wishlist HTTP/1.1" 200 2350 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Jun/2022:02:46:44 +0000] "PUT /api/v1/wishlist/remove_wishlist/621589b605253301a4fda5d8 HTTP/1.1" 200 2148 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Jun/2022:02:49:36 +0000] "PUT /api/v1/wishlist/remove_wishlist/621589b605253301a4fda5d8 HTTP/1.1" 200 1456 "-" "PostmanRuntime/7.29.0"
+

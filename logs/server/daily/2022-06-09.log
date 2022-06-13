@@ -1,0 +1,99 @@
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-08T19:06:49.973Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T19:06:50.041Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-08T19:07:19.722Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T19:07:19.756Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-08T19:08:25.872Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T19:08:25.911Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-08T19:09:23.726Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T19:09:23.860Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-08T19:09:44.300Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T19:09:44.338Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-08T19:09:55.590Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T19:09:55.626Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T02:29:55.975Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T02:29:56.040Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T02:31:03.139Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T02:31:03.188Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T02:31:13.362Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T02:31:13.403Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T02:31:45.425Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T02:31:45.469Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T02:32:24.743Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T02:32:24.801Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T02:34:13.675Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T04:21:09.895Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T04:21:45.478Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T04:21:45.510Z"}
+error: 
+    status - 500 
+    message - Error: Book does not exist
+    at _callee$ (F:\Study Material\ExpressNodejs\bookstore\src\services\/wishlist.service.js:7:15)
+    at tryCatch (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/add_wishlist/629ef27912d55e4324cd9276 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-09T17:57:45.240Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:00:39.559Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:00:39.601Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:01:15.780Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:01:15.839Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:01:52.752Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:01:52.800Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:02:06.747Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:02:06.799Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:03:35.394Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:03:35.431Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:04:19.100Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:04:19.169Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:04:42.514Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:04:42.564Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:05:12.867Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:05:12.924Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:05:28.852Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:05:28.898Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:06:03.590Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:06:03.629Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:06:23.250Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:06:23.287Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:06:51.460Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:06:51.498Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:08:58.574Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:08:58.624Z"}
+error: 
+    status - 500 
+    message - ReferenceError: listPresent is not defined
+    at _callee3$ (F:\Study Material\ExpressNodejs\bookstore\src\services\/wishlist.service.js:60:5)
+    at tryCatch (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/remove_wishlist/6215888305253301a4fda5cd 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-06-09T18:09:17.135Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:09:46.289Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:09:46.320Z"}
+info: Server started at http://localhost:3003/api/v1/ {"timestamp":"2022-06-09T18:16:11.786Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T18:16:11.824Z"}
+error: 
+    status - 500 
+    message - Error: Book does not exist
+    at _callee$ (F:\Study Material\ExpressNodejs\bookstore\src\services\/wishlist.service.js:7:15)
+    at tryCatch (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\Study Material\ExpressNodejs\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/add_wishlist/62a238557a2d384b14ff9371 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-09T18:16:50.098Z"}

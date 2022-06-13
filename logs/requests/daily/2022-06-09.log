@@ -1,0 +1,52 @@
+info: ::1 - - [09/Jun/2022:04:22:01 +0000] "POST /api/v1/users/login HTTP/1.1" 200 253 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:17:57:45 +0000] "POST /api/v1/wishlist/add_wishlist/629ef27912d55e4324cd9276 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:17:58:14 +0000] "POST /api/v1/wishlist/add_wishlist/6215888305253301a4fda5cd HTTP/1.1" 201 363 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:07:10 +0000] "POST /api/v1/wishlist/add_wishlist/6215890d05253301a4fda5d1 HTTP/1.1" 201 520 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:07:31 +0000] "POST /api/v1/wishlist/add_wishlist/6215897105253301a4fda5d5 HTTP/1.1" 201 680 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:07:41 +0000] "POST /api/v1/wishlist/add_wishlist/6215898705253301a4fda5d6 HTTP/1.1" 201 828 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:08:04 +0000] "GET /api/v1/wishlist/get_wishlist HTTP/1.1" 200 847 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:09:17 +0000] "DELETE /api/v1/wishlist/remove_wishlist/6215888305253301a4fda5cd HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:09:49 +0000] "DELETE /api/v1/wishlist/remove_wishlist/6215888305253301a4fda5cd HTTP/1.1" 200 684 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:10:36 +0000] "POST /api/v1/wishlist/add_wishlist/62158a8405253301a4fda5e0 HTTP/1.1" 201 852 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:11:55 +0000] "DELETE /api/v1/wishlist/remove_wishlist/6215888305253301a4fda5cd HTTP/1.1" 200 684 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:12:20 +0000] "DELETE /api/v1/wishlist/remove_wishlist/62a234b5b1a1980aec4f6876 HTTP/1.1" 200 524 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:12:37 +0000] "DELETE /api/v1/wishlist/remove_wishlist/62a234b5b1a1980aec4f6876 HTTP/1.1" 200 367 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:12:50 +0000] "DELETE /api/v1/wishlist/remove_wishlist/62a234b5b1a1980aec4f6876 HTTP/1.1" 200 222 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:13:25 +0000] "POST /api/v1/wishlist/add_wishlist/6214803b05253301a4fda584 HTTP/1.1" 201 1089 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:13:41 +0000] "POST /api/v1/wishlist/add_wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 201 1280 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:14:04 +0000] "POST /api/v1/wishlist/add_wishlist/621588af05253301a4fda5ce HTTP/1.1" 201 1429 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:14:20 +0000] "POST /api/v1/wishlist/add_wishlist/621588d505253301a4fda5cf HTTP/1.1" 201 1605 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:14:46 +0000] "POST /api/v1/wishlist/add_wishlist/6215898705253301a4fda5d6 HTTP/1.1" 201 1753 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:15:21 +0000] "DELETE /api/v1/wishlist/remove_wishlist/62a2387c7a2d384b14ff937e HTTP/1.1" 200 1609 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:15:50 +0000] "DELETE /api/v1/wishlist/remove_wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 1433 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:16:26 +0000] "PUT /api/v1/wishlist/remove_wishlist/62a238557a2d384b14ff9371 HTTP/1.1" 200 1284 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:16:50 +0000] "POST /api/v1/wishlist/add_wishlist/62a238557a2d384b14ff9371 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:17:06 +0000] "POST /api/v1/wishlist/add_wishlist/621589b605253301a4fda5d8 HTTP/1.1" 201 1972 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:17:26 +0000] "POST /api/v1/wishlist/add_wishlist/62158a8405253301a4fda5e0 HTTP/1.1" 201 2144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [09/Jun/2022:18:17:47 +0000] "POST /api/v1/wishlist/add_wishlist/62158a6505253301a4fda5df HTTP/1.1" 201 2331 "-" "PostmanRuntime/7.29.0"
+

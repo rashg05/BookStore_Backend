@@ -1,0 +1,18 @@
+info: ::1 - - [11/Jun/2022:02:22:11 +0000] "POST /api/v1/order/add_order HTTP/1.1" 201 812 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jun/2022:02:22:55 +0000] "GET /api/v1/cart/get_cart_item HTTP/1.1" 200 73 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jun/2022:02:24:41 +0000] "POST /api/v1/cart/add_cart_item/6214803b05253301a4fda584 HTTP/1.1" 200 250 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jun/2022:02:25:03 +0000] "POST /api/v1/cart/add_cart_item/621588af05253301a4fda5ce HTTP/1.1" 200 362 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jun/2022:02:25:16 +0000] "POST /api/v1/cart/add_cart_item/621588d505253301a4fda5cf HTTP/1.1" 200 489 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jun/2022:02:25:25 +0000] "POST /api/v1/cart/add_cart_item/621588d505253301a4fda5cf HTTP/1.1" 200 616 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jun/2022:02:25:43 +0000] "POST /api/v1/cart/add_cart_item/621588f105253301a4fda5d0 HTTP/1.1" 200 736 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jun/2022:02:39:15 +0000] "POST /api/v1/order/add_order HTTP/1.1" 201 679 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [11/Jun/2022:02:39:33 +0000] "GET /api/v1/cart/get_cart_item HTTP/1.1" 200 73 "-" "PostmanRuntime/7.29.0"
+
