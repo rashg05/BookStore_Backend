@@ -1,0 +1,46 @@
+info: ::1 - - [28/Jul/2022:06:01:13 +0000] "GET /api/v1/books/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:47:16 +0000] "POST /api/v1/cart/add_cart_item/6214803b05253301a4fda584 HTTP/1.1" 200 750 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:47:30 +0000] "POST /api/v1/wishlist/add_wishlist/6214803b05253301a4fda584 HTTP/1.1" 201 1403 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:47:32 +0000] "GET /api/v1/cart/get_cart_item HTTP/1.1" 200 773 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:47:40 +0000] "GET /api/v1/cart/get_cart_item HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:47:50 +0000] "GET /api/v1/books/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:48:37 +0000] "GET /api/v1/books/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:49:10 +0000] "GET /api/v1/cart/get_cart_item HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:51:52 +0000] "GET /api/v1/books/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:52:12 +0000] "POST /api/v1/cart/add_cart_item/6214803b05253301a4fda584 HTTP/1.1" 200 923 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:52:31 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:53:10 +0000] "PUT /api/v1/cart/cart_item_quantity/%7B_id%7D HTTP/1.1" 409 92 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:06:53:46 +0000] "PUT /api/v1/cart/cart_item_quantity/%7B_id%7D HTTP/1.1" 409 92 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [28/Jul/2022:06:57:53 +0000] "PUT /api/v1/cart//cart_item_quantity/6214803b05253301a4fda584 HTTP/1.1" 200 931 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jul/2022:06:58:31 +0000] "PUT /api/v1/cart//cart_item_quantity/6214803b05253301a4fda584 HTTP/1.1" 200 931 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [28/Jul/2022:07:05:50 +0000] "GET /api/v1/books/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:07:05:58 +0000] "POST /api/v1/cart/add_cart_item/6214803b05253301a4fda584 HTTP/1.1" 200 1096 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:07:06:01 +0000] "GET /api/v1/cart/cart_item_quantity/6214803b05253301a4fda584 HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:07:07:06 +0000] "PUT /api/v1/cart/cart_item_quantity/6214803b05253301a4fda584 HTTP/1.1" 200 1104 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:07:07:20 +0000] "PUT /api/v1/cart/cart_item_quantity/6214803b05253301a4fda584 HTTP/1.1" 200 1104 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:07:10:23 +0000] "PUT /api/v1/cart/cart_item_quantity/6214803b05253301a4fda584 HTTP/1.1" 200 1104 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:07:10:30 +0000] "GET /api/v1/books/all HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [28/Jul/2022:07:10:35 +0000] "POST /api/v1/cart/add_cart_item/6214803b05253301a4fda584 HTTP/1.1" 200 1269 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+

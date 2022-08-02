@@ -1,0 +1,4 @@
+info: ::1 - - [27/Jul/2022:03:13:36 +0000] "GET /api/v1/cart/get_cart_item HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jul/2022:03:16:46 +0000] "GET /api/v1/cart/get_cart_item HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+

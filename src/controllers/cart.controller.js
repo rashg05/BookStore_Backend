@@ -40,7 +40,8 @@ export const getCart = async (req, res, next) => {
 
 export const updateCart = async (req, res, next) => {
   try {
-    const data = await cartService.updateCart(req.params, req.body);
+    console.log("paramid", req.params._id );
+    const data = await cartService.updateCart(req.params._id, req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

@@ -5,7 +5,7 @@
         "title": " My BookStore App Swagger",
         "description": "This is a boostore_app swagger to access rest API server"
     },
-    "host": "localhost:3003",
+    "host": "localhost:3005",
     "basePath": "/api/v1/",
     "tags": [
         {
@@ -200,7 +200,7 @@
             }
         },
         "/cart/get_cart_item": {
-            "post": {
+            "get": {
                 "tags": [
                     "Cart Api's"
                 ],
@@ -209,6 +209,220 @@
                     {
                         "name": "Get_Cart",
                         "description": "get books from cart"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/cart/cart_item_quantity/{_id}": {
+            "put": {
+                "tags": [
+                    "Cart Api's"
+                ],
+                "description": "Update Books quantity in cart",
+                "parameters": [
+                    {
+                        "name": "Quantity_Update",
+                        "description": "Update books in cart"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/cart/remove_cart_item/{_id}": {
+            "delete": {
+                "tags": [
+                    "Cart Api's"
+                ],
+                "description": "Delete Books quantity in cart",
+                "parameters": [
+                    {
+                        "name": "Remove_Books",
+                        "description": "Delete books in cart"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/wishlist/add_wishlist/{_id}": {
+            "post": {
+                "tags": [
+                    "Wishlist Api's"
+                ],
+                "description": "Add Books in Wishlist",
+                "parameters": [
+                    {
+                        "name": "Add_Books",
+                        "description": "Adding books in wishlist"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/wishlist/get_wishlist": {
+            "get": {
+                "tags": [
+                    "Wishlist Api's"
+                ],
+                "description": "Get Books from Wishlist",
+                "parameters": [
+                    {
+                        "name": "Get_Books",
+                        "description": "Getting books from wishlist"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/wishlist/remove_wishlist/{bookId}": {
+            "put": {
+                "tags": [
+                    "Wishlist Api's"
+                ],
+                "description": "Remove Books in Wishlist",
+                "parameters": [
+                    {
+                        "name": "Remove_Books",
+                        "description": "Removing books in wishlist"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/order/add_order": {
+            "put": {
+                "tags": [
+                    "Order Api's"
+                ],
+                "description": "Order Books",
+                "parameters": [
+                    {
+                        "name": "Books_Order",
+                        "description": "Order books"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/customer/edit_user": {
+            "put": {
+                "tags": [
+                    "Customer Api's"
+                ],
+                "description": "Edit Customer Details for order",
+                "parameters": [
+                    {
+                        "name": "Edit_User",
+                        "in": "body",
+                        "description": "Customer address details editted",
+                        "schema": {
+                            "$ref": "#/definitions/EditUser"
+                        }
                     }
                 ],
                 "produces": [
@@ -281,6 +495,40 @@
                     "type": "string"
                 }
             }
+        },
+
+        "EditUser": {
+            "type": "object",
+            "properties": {
+                "addressType": {
+                    "type": "String"
+                  },
+                  "fullAddress": {
+                    "type": "String"
+                  },
+                  "city": {
+                    "type": "String"
+                  },
+                  "landmark": {
+                    "type": "String"
+                  },
+                  "state": {
+                    "type": "String"
+                  },
+                  "name": {
+                    "type": "String"
+                  },
+                  "phoneNumber": {
+                    "type": "String"
+                  },
+                  "pincode": {
+                    "type": "String"
+                  },
+                  "locality": {
+                    "type": "String"
+                  }
+            }
         }
     }
 }
+
